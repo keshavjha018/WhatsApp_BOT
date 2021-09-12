@@ -1,5 +1,5 @@
-WhatsApp BOT - Self-Made Project
-Automates WhatsApp via Python Program
+WhatsApp BOT - Self-Made Project.
+Automates WhatsApp via Python Program.
 
 Programs are made using Python and Selenium framework.
 There are some requirements for running these programs in any system, Your system must have these tools installed before you run any program:
