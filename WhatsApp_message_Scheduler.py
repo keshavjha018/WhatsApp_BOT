@@ -12,6 +12,7 @@ from datetime import datetime
 
 driver.get("https://web.whatsapp.com/")
 print("Scan the QR code to Log in...")
+time.sleep(10)
 
 nameofcontact = input('Give name of contact: ')
 msg = input("Type the message you want to send: ")
@@ -33,7 +34,7 @@ def send_msg():
     nameofcontact = driver.find_element_by_css_selector(css_path)
     nameofcontact.click()
 
-    chatbox = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
+    chatbox = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div/div/div[2]/div[1]/div/div[2]')
     chatbox.send_keys(msg)
     chatbox.send_keys(Keys.RETURN)
 
